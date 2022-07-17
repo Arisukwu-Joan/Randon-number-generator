@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Blue: hsl(246, 80%, 60%);
+--Light-red : hsl(15, 100%, 70%);
+--Soft-blue: hsl(195, 74%, 62%);
+--Light-red: hsl(348, 100%, 68%);
+--Lime-green: hsl(145, 58%, 55%);
+--Violet: hsl(264, 64%, 52%);
+--Soft-orange: hsl(43, 84%, 65%);
+--Very-dark-blue: hsl(226, 43%, 10%);
+--Dark-blue: hsl(235, 46%, 20%);
+--Desaturated-blue: hsl(235, 45%, 61%);
+--Pale-Blue: hsl(236, 100%, 87%);
+--white: hsl(f,f,f);
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family:'open sans', sans-serif;
+
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter-div{
+    width: 40rem;
+    padding: 1rem;
+    border: 1px solid var(--Desaturated-blue);
+    background-color: var(--Blue);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;    
+}
+.counter-div > *{
+    margin-bottom: 2rem;
+}
+.count{
+    font-size: 4rem;
+    /* border: 1px solid #fff; */
+    /* padding: 0 1rem; */
+    /* background: var(--Pale-Blue); */
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: grab ;
+}
+button.substract{
+    background-color: var(--Soft-orange);
+    color: #fff;
+    
+}
+button.reset{
+    background-color: var(--Soft-blue);
+    color: #fff;
+
+}
+button.add{
+    background-color: var(--Lime-green);
+    color: #fff;
+
+}
+
+
+
